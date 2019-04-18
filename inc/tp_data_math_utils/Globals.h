@@ -20,7 +20,7 @@ TDP_DECLARE_ID(                      matrix4SID,                         "Matrix
 TDP_DECLARE_ID(                      vector3SID,                         "Vector 3")
 
 //##################################################################################################
-//! Add the collection factories that this module provides to the StepDelegateMap
+//! Add the collection factories that this module provides to the CollectionFactory
 void createCollectionFactories(tp_data::CollectionFactory& collectionFactory);
 }
 
