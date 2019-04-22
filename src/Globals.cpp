@@ -4,6 +4,7 @@
 #include "tp_data_math_utils/members/Mat4Member.h"
 #include "tp_data_math_utils/members/PolygonsMember.h"
 #include "tp_data_math_utils/members/RegionsMember.h"
+#include "tp_data_math_utils/members/Vec3Member.h"
 
 #include "tp_data/CollectionFactory.h"
 
@@ -24,6 +25,7 @@ void createCollectionFactories(tp_data::CollectionFactory& collectionFactory)
   collectionFactory.addMemberFactory(new     Mat4MemberFactory());
   collectionFactory.addMemberFactory(new PolygonsMemberFactory());
   collectionFactory.addMemberFactory(new  RegionsMemberFactory());
+  collectionFactory.addMemberFactory(new     Vec3MemberFactory());
 }
 
 }
