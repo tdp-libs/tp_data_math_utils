@@ -28,4 +28,12 @@ void createCollectionFactories(tp_data::CollectionFactory& collectionFactory)
   collectionFactory.addMemberFactory(new     Vec3MemberFactory());
 }
 
+REGISTER_CREATE_COLLECTION_FACTORIES;
+
+//##################################################################################################
+int staticInit()
+{
+  return 0;
+}
+
 }
