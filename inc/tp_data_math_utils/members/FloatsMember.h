@@ -18,7 +18,7 @@ public:
   FloatsMember(const std::string& name=std::string());
 
   //################################################################################################
-  ~FloatsMember();
+  ~FloatsMember() override;
 
   //################################################################################################
   static FloatsMember* fromJSON(const nlohmann::json& j);
