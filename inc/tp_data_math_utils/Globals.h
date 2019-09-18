@@ -12,12 +12,12 @@ class CollectionFactory;
 //! Adds math utils data types to tp_data.
 namespace tp_data_math_utils
 {
-TDP_DECLARE_ID(                     polygonsSID,                         "Polygons")
-TDP_DECLARE_ID(                       floatsSID,                           "Floats")
-TDP_DECLARE_ID(                       pointsSID,                           "Points")
-TDP_DECLARE_ID(                      regionsSID,                          "Regions")
-TDP_DECLARE_ID(                      matrix4SID,                         "Matrix 4")
-TDP_DECLARE_ID(                      vector3SID,                         "Vector 3")
+TDP_DECLARE_ID(                     polygonsSID,                         "Polygons");
+TDP_DECLARE_ID(                       floatsSID,                           "Floats");
+TDP_DECLARE_ID(                       pointsSID,                           "Points");
+TDP_DECLARE_ID(                      regionsSID,                          "Regions");
+TDP_DECLARE_ID(                      matrix4SID,                         "Matrix 4");
+TDP_DECLARE_ID(                      vector3SID,                         "Vector 3");
 
 //##################################################################################################
 //! Add the collection factories that this module provides to the CollectionFactory
