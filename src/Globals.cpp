@@ -10,12 +10,12 @@
 
 namespace tp_data_math_utils
 {
-tp_qt_DEFINE_ID(                     polygonsSID,                         "Polygons");
-tp_qt_DEFINE_ID(                       floatsSID,                           "Floats");
-tp_qt_DEFINE_ID(                       pointsSID,                           "Points");
-tp_qt_DEFINE_ID(                      regionsSID,                          "Regions");
-tp_qt_DEFINE_ID(                      matrix4SID,                         "Matrix 4");
-tp_qt_DEFINE_ID(                      vector3SID,                         "Vector 3");
+TP_DEFINE_ID(                     polygonsSID,                         "Polygons");
+TP_DEFINE_ID(                       floatsSID,                           "Floats");
+TP_DEFINE_ID(                       pointsSID,                           "Points");
+TP_DEFINE_ID(                      regionsSID,                          "Regions");
+TP_DEFINE_ID(                      matrix4SID,                         "Matrix 4");
+TP_DEFINE_ID(                      vector3SID,                         "Vector 3");
 
 //##################################################################################################
 void createCollectionFactories(tp_data::CollectionFactory& collectionFactory)
